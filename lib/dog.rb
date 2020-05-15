@@ -8,8 +8,8 @@ class Dog # Add your code here
   end
   
   def self.print_all
-    @@all.each do |name|
-      puts name
+    @@all.each do |dog|
+      puts dog.name
     end  
   end
   
