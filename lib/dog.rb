@@ -27,6 +27,7 @@ class Dog # Add your code here
   end
   
   def name
-    
+    @name
+  end  
 
 end
