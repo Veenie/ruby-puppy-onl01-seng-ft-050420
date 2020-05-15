@@ -22,7 +22,7 @@ class Dog # Add your code here
   
   def self.all
     @@all.each do |dog|
-      puts dog.name
+      puts @name
     end  
   end
 
